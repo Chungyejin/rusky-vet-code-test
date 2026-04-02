@@ -1,0 +1,1 @@
+Route::get('/consultas', [ConsultaController::class, 'index']);
