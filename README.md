@@ -5,7 +5,6 @@
 Este projeto foi desenvolvido como parte do processo seletivo da Energié.
 O objetivo foi implementar funcionalidades essenciais para um sistema de gestão de saúde canina utilizando o framework Laravel.
 
----
 
 ## Funcionalidades Implementadas
 
@@ -32,7 +31,6 @@ O objetivo foi implementar funcionalidades essenciais para um sistema de gestão
 * Atualização automática do status para "finalizada"
 * Registro do veterinário responsável pela consulta
 
----
 
 ## Decisões Técnicas
 
@@ -40,34 +38,12 @@ O objetivo foi implementar funcionalidades essenciais para um sistema de gestão
 * Implementação simplificada sem uso de AJAX devido ao tempo limitado
 * Estruturação do projeto seguindo o padrão MVC do Laravel
 
----
 
 ## Problemas Encontrados
 
 * O projeto inicial estava incompleto (ausência de alguns controllers e models)
 * Necessidade de configuração manual do ambiente (PHP, Composer e extensões)
 
----
-
-## Melhorias Futuras
-
-* Implementar seleção dinâmica de horários utilizando AJAX
-* Melhorar a interface e experiência do usuário
-* Adicionar controle de permissões (cliente e veterinário)
-
----
-
-## Como Executar o Projeto
-
-```bash
-composer install
-npm install
-php artisan migrate
-php artisan db:seed
-php artisan serve
-```
-
----
 
 ## Credenciais de Teste
 
